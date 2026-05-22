@@ -1,3 +1,41 @@
+dependencies
+
+node_modules/
+
+environment files
+
+.env
+.env.local
+.env.development
+.env.production
+
+backend env
+
+backend/.env
+backend/.env.example
+
+frontend env
+
+frontend/.env
+frontend/.env.example
+
+build folders
+
+dist/
+build/
+
+uploads
+
+uploads/
+backend/uploads/
+
+logs
+
+logs/
+*.log
+
+sensitive markdown files
+
 DEVELOPMENT_SUMMARY.md
 PHASE_1_COMPLETE.md
 PHASE_2_COMPLETE.md
@@ -7,3 +45,13 @@ PHASE_5_COMPLETE.md
 PHASE_6_COMPLETE.md
 PHASE_7_COMPLETE.md
 PROJECT_COMPLETE_88_PERCENT.md
+
+IDE files
+
+.vscode/
+.idea/
+
+OS files
+
+.DS_Store
+Thumbs.db
