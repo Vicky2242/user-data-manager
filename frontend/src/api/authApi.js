@@ -1,4 +1,5 @@
 import axiosInstance from '../utils/axiosInstance';
+import api from './axios';
 
 export const authAPI = {
   signup: async (name, email, password, confirmPassword) => {
