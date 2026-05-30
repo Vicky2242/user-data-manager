@@ -15,7 +15,7 @@ app.use(helmet());
 app.use(morgan('combined'));
 
 const corsOptions = {
-  origin: process.env.CORS_ORIGIN?.split(',') || ['http://localhost:5173', 'http://localhost:3000'],
+  origin: process.env.CORS_ORIGIN?.split(',') || ['http://localhost:5173', 'http://localhost:3000','https://user-data-manager-five.vercel.app'],
   credentials: true,
   optionsSuccessStatus: 200,
 };
